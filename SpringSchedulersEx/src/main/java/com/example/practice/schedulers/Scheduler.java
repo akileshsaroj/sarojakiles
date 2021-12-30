@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 
 	      Date now = new Date();
 	      String strDate = sdf.format(now);
-	      System.out.println("Fixed Rate scheduler:: " + strDate);
+	      System.out.println("Fixed Rate scheduler:: " + "todaysDate::" + strDate);
 	   }
 	  
 }
