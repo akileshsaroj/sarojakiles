@@ -16,5 +16,6 @@ import org.springframework.stereotype.Component;
 	      String strDate = sdf.format(now);
 	      System.out.println("Fixed Rate scheduler:: " + strDate);
 	   }
+	  
 }
 
